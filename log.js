@@ -45,17 +45,17 @@ const sessions = [
     {
         deviceId: 'device1',
         userId: 'user1',
-        logged_in: '2023-01-15T00:00:00Z',
-        logged_out: '2023-06-20T00:00:00Z',
-        lastOpenedAt: '2023-05-01T00:00:00Z'
+        logged_in: '2024-01-15T00:00:00Z',
+        logged_out: '2024-06-20T00:00:00Z',
+        lastOpenedAt: '2024-05-01T00:00:00Z'
     },
     {
         deviceId: 'device2',
         userId: 'user2',
-        logged_in: '2023-02-10T00:00:00Z',
-        logged_out: '2023-08-15T00:00:00Z',
-        lastOpenedAt: '2023-07-01T00:00:00Z'
+        logged_in: '2024-02-10T00:00:00Z',
+        logged_out: '2024-08-15T00:00:00Z',
+        lastOpenedAt: '2024-07-01T00:00:00Z'
     }
 ];
 
-console.log(getMonthlyStats(sessions, 2023));
+console.log(getMonthlyStats(sessions, 2024));
