@@ -43,17 +43,17 @@ const sessions: UserSession[] = [
     {
         deviceId: 'device1',
         userId: 'user1',
-        logged_in: new Date('2023-01-15'),
-        logged_out: new Date('2023-06-20'),
-        lastOpenedAt: new Date('2023-05-01')
+        logged_in: new Date('2024-07-25'),
+        logged_out: new Date('2024-07-26'),
+        lastOpenedAt: new Date('2024-07-27')
     },
     {
         deviceId: 'device2',
         userId: 'user2',
-        logged_in: new Date('2023-02-10'),
-        logged_out: new Date('2023-08-15'),
-        lastOpenedAt: new Date('2023-07-01')
+        logged_in: new Date('2024-06-10'),
+        logged_out: new Date('2024-06-15'),
+        lastOpenedAt: new Date('2024-06-01')
     },
 ];
 
-console.log(getMonthlyStats(sessions, 2023));
+console.log(getMonthlyStats(sessions, 2024));
